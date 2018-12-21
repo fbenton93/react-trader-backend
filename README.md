@@ -1,24 +1,26 @@
-# README
+View the demo here: https://www.youtube.com/watch?v=H_dUkOrq_8o
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Frontend Technologies: 
 
-Things you may want to cover:
+- Axios
+- IEX API
+- Lodash
+- React-Stockcharts
+- Redux
+- Redux-Thunk
+- Semantic-UI-React
+- Socket.io
 
-* Ruby version
+Backend Technologies:
 
-* System dependencies
+- JWT
+- Serializer
 
-* Configuration
+App Summary:
 
-* Database creation
+React trader is a simple buy/hold/sell trading app. A user can:
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. View their current holdings in the portfolio
+2. View their gain/loss (updated live via websockets)
+2. Buy/Sell all asssets available on the IEX API
+3. Inspect individual companies, represented using React-Stockcharts
